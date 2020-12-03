@@ -1,0 +1,140 @@
+.nav-sidebar li span {
+	margin-left: 10px; 
+}
+
+.sidebar {
+	padding: 0px;
+}
+
+.sidebar ul {
+	padding: 15px;
+}
+
+.user-info {
+	background: #323376;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.user-info img {
+	width: 120px; 
+	margin: 0 auto;
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+
+.btn-contract-custom {
+	width: 100%;
+	color: #fff;
+	background: #323277;
+}
+
+.btn-contract-custom:hover {
+	color: #fff;
+}
+
+.form-custom .form-control {
+	margin-bottom: 10px;
+}
+
+.invalid-feedback {
+	margin-bottom: 10px;
+	color: red;
+}
+
+.panel {
+	text-align: center;;
+}
+
+.panel-body {
+	padding: 0px;
+}
+
+.panel-body div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.leave-type, .leave-dates {
+	background: #8c9bc2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff !important;
+}
+
+.leave-reason {
+	background: #e7eaf1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.leave-pending {
+	background: #dbd15e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.leave-approve {
+	background: #83d495;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.leave-reject {
+	background: #d48482;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-custom {
+	background: #323277;
+}
+
+table th {
+	background: #60679d;
+	color: #fff;
+}
+
+table td {
+	background: #8c9bc2;
+	color: #fff;
+}
+
+table td a {
+	color: #fff;
+}
+
+.dashboard-table th, .dashboard-table td {
+	background: none !important;
+	color: #000 !important;
+}
+
+.navbar-inverse {
+	background-color: #323277;
+	color: #fff;
+}
+
+.glyphicon-log-out:before {
+	color:#fff;
+}
+
+.page-header {
+	text-align: center;
+	margin-top: 0;
+    background: #7d8ab6;
+    color: #ecf0f8;
+    padding-top: 8px;
+}
+
+.dashboardLeavesSection {
+	text-align: center;
+}
+
+.dashboardLeavesItem {
+	background: #e7eaf1;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
