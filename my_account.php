@@ -271,7 +271,7 @@ if ($result->num_rows > 0) {
                       $departments = mysqli_fetch_all($resultD, MYSQLI_ASSOC);
                       foreach ($departments as $depatment) {
                   ?>
-                        <option value="<?php echo $depatment['Department_ID'] ?>"><?php echo $depatment['Name']; ?></option>
+                        <option <?php if($depatment['Department_ID'] == $user['Department_ID']){ echo 'selected'; } ?> value="<?php echo $depatment['Department_ID'] ?>"><?php echo $depatment['Name']; ?></option>
                   <?php
                       }
                     }
@@ -288,7 +288,7 @@ if ($result->num_rows > 0) {
                       $managers = mysqli_fetch_all($resultU, MYSQLI_ASSOC);
                       foreach ($managers as $manager) {
                   ?>
-                        <option value="<?php echo $manager['ID'] ?>"><?php echo $manager['Employee_ID']; ?></option>
+                        <option <?php if($manager['ID'] == $user['Manager_ID']){ echo 'selected'; } ?> value="<?php echo $manager['ID'] ?>"><?php echo $manager['Employee_ID']; ?></option>
                   <?php
                       }
                     }
@@ -306,7 +306,7 @@ if ($result->num_rows > 0) {
                       $roles = mysqli_fetch_all($resultRole, MYSQLI_ASSOC);
                       foreach ($roles as $role) {
                   ?>
-                        <option value="<?php echo $role['id'] ?>"><?php echo $role['role_name']; ?></option>
+                        <option <?php if($role['id'] == $user['Role']){ echo 'selected'; } ?> value="<?php echo $role['id'] ?>"><?php echo $role['role_name']; ?></option>
                   <?php
                       }
                     }
